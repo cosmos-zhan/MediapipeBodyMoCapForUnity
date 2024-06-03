@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{EEBEC384-2190-8232-4795-FEAAA9AA8709}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Mediapipe.Runtime</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2023_2_12;UNITY_2023_2;UNITY_2023;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;ENABLE_NULLDEPTHBUFFER;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2023.2.12f1c1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="D:\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\Category.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\NormalizedRectListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\CalculatorGraph.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\BoxDetectorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlTextureBuffer.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Gpu\GlScalerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlCalculatorHelper_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\DetectionLabelIdToTextCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlCalculatorHelper_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\DetectionAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Util\ResourceManager.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\FeatureDetectorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\SplitVectorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MaskAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LandmarksToDetectionCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\LineAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\Core\ImageProcessingOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LandmarksSmoothingCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\FaceLandmarkListWithIrisAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\Arrow.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\MediaPipePluginException.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\NativeRect.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Calculator_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\PacketValidatorExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\ClassificationResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\ImageCroppingCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\Latency.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Packet_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\ValidatedGraphConfig_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\ImageTransformationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\Tracking.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\DetectionListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\FaceLandmarkerResultAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Extension\TaskExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\DetectionsToRectsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\LabelMap.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PoseWorldLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\BadStatusException.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\ListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\CalculatorOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Core\Proto\ExternalFile.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\PushPullFiltering.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\MotionEstimation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\OutputStreamPoller.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\ConcatenateVectorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Timestamp_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\ClipVectorSizeCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\StreamHandler.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\PacketGetterExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\Color.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\ConstantSidePacketCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\ValidatedGraphConfig_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\Core\RunningMode.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\ImageArray.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Tasks\Components\Containers_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\NonMaxSuppressionCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\OpencvImageEncoderCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\DequantizeByteArrayCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\DetectionResultAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\FaceDetector\FaceDetector.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Tool\ValidateName.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\HandLandmarker\Proto\HandLandmarkerGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\PacketThinnerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlSyncPoint.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GpuResources_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\RotationMode.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Formats\Image.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlTextureBuffer_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\CircleAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\TrackedDetectionManagerConfig.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\PacketGenerator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\ImageFormat.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\NativeCategory.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Components\Containers\Proto\Classifications.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\HandLandmarkerResultAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\Egl.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Packet\PacketMap.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\NativeDetectionResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\CalculatorGraphConfigExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\NormalizedRectAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\TopKScoresCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Gpu\CopyCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceGeometry\Proto\FaceGeometryGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\MotionAnalysisCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\FaceLandmarker\FaceLandmarker.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Modules\HolisticLandmark\Calculators\RoiTrackingCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Annotation\Rasterization.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\OpencvVideoEncoderCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteConverterCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\ResourceManager\LocalResourceManager.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\RegionFlowComputation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\WarpAffineCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\MediapipeOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteTensorsToClassificationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\PoseLandmarker\PoseLandmarker.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\LocationData.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\RectTransformationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PoseLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\FlowToImageCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\MaskOverlayCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Extension\TextureFormatExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Gpu\ScaleMode.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlContext_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Experimental\TextureFrame.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\HandLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GpuBufferFormat_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\ImageToTensorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Core\Proto\Acceleration.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\NativeClassificationResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\External\SerializedProto.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\MatrixData.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceGeometry\Proto\Mesh3D.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\HandLandmarker\HandLandmarker.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Core\TaskInfo.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MultiHandLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\ImageCloneCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\DetectionResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Calculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlVersion.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\SequenceShiftCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Core\TaskRunner.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\SetAlphaCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\ConnectionListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\RectToRenderDataCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\SegmentationSmoothingCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PointListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\InferenceCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\PacketResamplerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\ToneModels.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MultiHandLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Experimental\TextureFramePool.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\NativeKeypoint.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Core\Proto\BaseOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\NormalizedLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\PacketFrequencyCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\RenderData.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Packet_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\UnsafeNativeMethods.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceLandmarker\Proto\FaceLandmarkerGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\External\Protobuf.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlCalculatorHelper.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\ResourceManager\AssetBundleResourceManager.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Gpu\GlContextOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\ThreadPoolExecutor.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlContext.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Format\Rect_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\FaceLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\RectToRenderScaleCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteTensorsToLandmarksCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Core\BaseOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Tool\NameUtil.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\RecolorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PoseLandmarkerResultAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\MpResourceHandle.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\Connection.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\OpencvEncodedImageToImageFrameCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MultiFaceLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Gpu\GlSurfaceSinkCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LandmarksToFloatsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\FaceLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MultiPoseLandmarkListWithMaskAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\HandLandmarker\HandLandmarkerResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\VisibilityCopyCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\IrisLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteTensorsToDetectionsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\DisposableObject.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\External\Absl_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\SsdAnchorsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\PoseLandmarker\PoseLandmarkerResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Timestamp.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Audio\SpectrogramCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\DetectionsToRenderDataCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\CalculatorProfile.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LabelsToRenderDataCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlTexture_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\Core\BaseVisionTaskApi.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\HandLandmarker\HandLandmarkerOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\PoseLandmarker\Proto\PoseLandmarksDetectorGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\GateCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\Gl_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Landmark.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\PacketFrequency.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\ObjectDetection\Anchor.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\OutputStreamPoller_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\TensorsToClassificationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\DetectionListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\External\Glog.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\LabelAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Extension\ImageFrameExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\CoordinateSystem\ImageCoordinate.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\HolisticLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceDetector\Proto\FaceDetectorGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LocalFileContentsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\CalculatorGraph_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\ToneEstimation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\External\SerializedProtoVector.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Audio\TimeSeriesFramerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\FlowLimiterCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\MotionSaliency.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlTexture.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteTensorsToSegmentationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\MotionAnalysis.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\VideoPreStreamCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MaskOverlayAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceLandmarker\Proto\FaceBlendshapesGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GlTextureInfo.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\LandmarksToTensorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MaskAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\FilterDetectionsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\OutputStream.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\Landmark.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\External\StdString.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\PoseLandmarker\Proto\PoseLandmarkerGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\SharedPtrHandle.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlTexture_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\RefineLandmarksFromHeatmapCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\TensorConverterCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LogicCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\FaceDetector\FaceDetectorOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\ScaleImageCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PoseLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Modules\FaceDetection\FaceDetection.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\AffineTransformData.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Port\Status.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Extension\ProtoMessageClearExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\StatusHandler.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Rect.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\AssociationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\AssemblyInfo.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LandmarkProjectionCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\Keypoint.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\TimedBoxListToRenderDataCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GpuBufferFormat_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PointAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\Rect.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\InternalException.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\HandDetector\Proto\HandDetectorGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\GpuManager.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MultiFaceLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\SafeNativeMethods.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\TensorsToLandmarksCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\MpReturnCode.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\FaceLandmarker\FaceLandmarkerResult.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Extension\ListExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\MultiPoseLandmarkListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\PoseLandmarkListWithMaskAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteCustomOpResolverCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\UniquePtrHandle.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\CoordinateSystem\RealWorldCoordinate.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Format\ImageFrame_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Extension\ImageFormatExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\NativeLandmark.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\Util.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\PacketLatencyCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Format\Image_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\VisibilitySmoothingCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Audio\MfccMelCalculators.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Format\Image_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Core\MediaPipeException.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Tasks\TaskRunner_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\DetectionAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\FlowPackager.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceGeometry\GeometryPipelineCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\RotationAngle.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\BoxTracker.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\RegionFlow.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\QuantizeFloatVectorCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\ValidatedGraphConfig.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\CameraMotion.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\AnnotationOverlayCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\TimedBoxListIdToLabelCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\TrackedDetectionManagerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\TensorsToDetectionsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GpuResources.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\External\Protobuf_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\PacketClonerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Classification.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceLandmarker\Proto\FaceLandmarksDetectorGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GpuResources_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Extension\CalculatorGraphConfigExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\ConnectionAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\AudioDecoder.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Core\TaskOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\FrameSelectionSolutionEvaluator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Detection.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\HandLandmarker\Proto\HandLandmarksDetectorGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\FaceGeometry\Proto\FaceGeometry.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\FrameSelection.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlContext_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LandmarksToRenderDataCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\HierarchicalAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\TimeSeriesHeader.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Image\BilateralFilterCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Format\ImageFrame_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GpuBuffer_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\ThresholdingCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\AnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Timestamp_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\Gl.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Motion\OpticalFlowFieldData.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Audio\RationalFactorResampleCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\BoxDetector.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Format\Matrix_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\External\Stdlib_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\TensorsToSegmentationCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Audio\StabilizedLogCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\RectangleAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Packet.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteInferenceCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Util\MotionModels.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\PoseLandmarker\PoseLandmarkerOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\CalculatorGraph_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GpuBuffer_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Logger.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GpuBufferFormat.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Components\Containers\PacketExtension.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\RectangleListAnnotation.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tensor\TensorsToFloatsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\Annotation\Locus.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Vision\FaceLandmarker\FaceLandmarkerOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\FlowPackagerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\HolisticLandmarkListAnnotationController.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\External\Absl_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Video\BoxTrackerCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Util\GlobalInstanceTable.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\Gl_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\Formats\ImageFileProperties.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\ResourceManager\StreamingAssetsResourceManager.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Formats\ImageFrame.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Framework\PacketFactory.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Gpu\GpuBuffer.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Gpu\GlTextureBuffer_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\External\Glog_Unsafe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Tasks\Vision\PoseDetector\Proto\PoseDetectorGraphOptions.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Core\GraphProfileCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Util\ResourceUtil_Safe.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Gpu\GpuOrigin.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Tasks\Core\PacketsCallbackTable.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Marshal\StructArray.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Packages\com.github.homuler.mediapipe\Runtime\Plugins\Protobuf\System.Buffers.dll" />
+    <None Include="Packages\com.github.homuler.mediapipe\Runtime\Mediapipe.Runtime.asmdef" />
+    <None Include="Packages\com.github.homuler.mediapipe\Runtime\Plugins\Protobuf\System.Runtime.CompilerServices.Unsafe.dll" />
+    <None Include="Packages\com.github.homuler.mediapipe\Runtime\Plugins\Protobuf\Google.Protobuf.dll" />
+    <None Include="Packages\com.github.homuler.mediapipe\Runtime\Plugins\mediapipe_c.dll" />
+    <None Include="Packages\com.github.homuler.mediapipe\Runtime\Plugins\Protobuf\System.Memory.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CommandStateObserverModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CommandStateObserverModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphToolsFoundationModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphToolsFoundationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphToolsFoundationModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphToolsFoundationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>Packages\com.github.homuler.mediapipe\Runtime\Plugins\Protobuf\Google.Protobuf.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Packages\com.github.homuler.mediapipe\Runtime\Plugins\Protobuf\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>E:\Unity\Hub\Editor\2023.2.12f1c1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
